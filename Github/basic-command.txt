@@ -1,0 +1,60 @@
+# Basic Window Commands
+------------------------
+cd ..                       [go to parent directory]
+cd dir_name                 [got to child directory]
+cls                         [clear screen]
+ls                          [existing file & folder list in current directory]
+dir                         [same as ls]
+mkdir new_dir_name          [create new directory]
+rmdir dir_name              [remove an existing directory]
+touch file_name.extnsn      [create new file]
+rm file_name.extnsn         [remove existing file]
+ren old_name new_name       [rename]
+
+code .                      [open VSCode editor]
+nodepad file_name.extnsn    [open a file in notepad]
+
+# Basic Linux Commands
+------------------------
+...
+
+# Basic github Commands
+------------------------
+git --version
+git config --global user.name Biprodas
+git config --global user.email biprodas.cse@gmail.com
+git config user.name
+
+git init
+git status
+git add file_name.extnsn                [add a file to staging area]
+git rm --cached file_name.extnsn        [unstaged a file]
+git add .                               [add all modified file to staging area]
+git status
+git commit -m "commit message"
+git log                                 [commit history (details)]
+git log --oneline                       [commit history]
+
+git checkout commit_id
+git checkout master
+git revert commit_id
+git reset commit_id
+git reset commit_id --hard
+
+git branch new_branch_name
+git branch -a
+git branch -b new_branch_name
+git checkout branch_name
+git brance -d branch_name               [command from master brance]
+git marge branch_name                   [command from master brance]
+
+git remote add origin github_repo_link
+git remote -v
+git clone origin
+git push origin master
+
+git pull origin master
+git checkout -b brance_name
+git add .
+git commit -m "commit message"
+git push origin brance_name
